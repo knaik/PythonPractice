@@ -94,18 +94,9 @@ NOTE:  :q! <ENTER>  discards any changes you made.  In a few lessons you
   1. Exit this tutor as you did in lesson 1.2:  :q!
      Or, if you have access to another terminal, do the following there.
 
-  2. At the shell prompt type this command:  vim tutor <ENTER>
-     'vim' is the command to start the Vim editor, 'tutor' is the name of the
-     file you wish to edit.  Use a file that may be changed.
-
-  3. Insert and delete text as you learned in the previous lessons.
 
   4. Save the file with changes and exit Vim with:  :wq  <ENTER>
 
-  5. If you have quit vimtutor in step 1 restart the vimtutor and move down to
-     the following summary.
-
-  6. After reading the above steps and understanding them: do it.
   
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 			       Lesson 1 SUMMARY
@@ -113,6 +104,7 @@ NOTE:  :q! <ENTER>  discards any changes you made.  In a few lessons you
 
   1. The cursor is moved using either the arrow keys or the hjkl keys.
 	 h (left)	j (down)       k (up)	    l (right)
+     It's probably easiest to rest on home row, pointer finger on j
 
   2. To start Vim from the shell prompt type:  vim FILENAME <ENTER>
 
@@ -128,7 +120,6 @@ NOTE:  :q! <ENTER>  discards any changes you made.  In a few lessons you
 NOTE: Pressing <ESC> will place you in Normal mode or will cancel
       an unwanted and partially completed command.
 
-Now continue with Lesson 2.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 			Lesson 2.1: DELETION COMMANDS
@@ -148,10 +139,11 @@ Now continue with Lesson 2.
 	it.  Vim is waiting for you to type  w .  If you see another character
 	than  d  you typed something wrong; press  <ESC>  and start over.
 
----> There are a some words fun that don't belong paper in this sentence.
+---> There are a some words that don't belong in this sentence.
 
-  5. Repeat steps 3 and 4 until the sentence is correct and go to Lesson 2.2.
-
+     If the cursor is in the middle of the word, it doesn't delete backwards!!
+     
+     **typing x deletes the single character at cursor
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		      Lesson 2.2: MORE DELETION COMMANDS
