@@ -15,8 +15,6 @@
   2. Hold down the down key (j) until it repeats.
      Now you know how to move to the next lesson.
 
-  3. Using the down key, move to Lesson 1.2.
-
 NOTE: If you are ever unsure about something you typed, press <ESC> to place
       you in Normal mode.  Then retype the command you wanted.
 
@@ -95,9 +93,10 @@ NOTE:  :q! <ENTER>  discards any changes you made.  In a few lessons you
      Or, if you have access to another terminal, do the following there.
 
 
-  4. Save the file with changes and exit Vim with:  :wq  <ENTER>
+  2. Save the file with changes and exit Vim with:  :wq  <ENTER>
 
-  
+  3. Save the file without exiting Vim with :w
+ 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 			       Lesson 1 SUMMARY
 
@@ -106,7 +105,9 @@ NOTE:  :q! <ENTER>  discards any changes you made.  In a few lessons you
 	 h (left)	j (down)       k (up)	    l (right)
      It's probably easiest to rest on home row, pointer finger on j
 
-  2. To start Vim from the shell prompt type:  vim FILENAME <ENTER>
+  2. To start Vim from the shell prompt type:  vim FILENAME <ENTER> 
+     Note that some systems might run with just vi. vim has comfort features.
+     vi and sed can be used to perform operations on very barebones systems.
 
   3. To exit Vim type:	   <ESC>   :q!	 <ENTER>  to trash all changes.
 	     OR type:	   <ESC>   :wq	 <ENTER>  to save the changes.
@@ -144,7 +145,7 @@ NOTE: Pressing <ESC> will place you in Normal mode or will cancel
      If the cursor is in the middle of the word, it doesn't delete backwards!!
      
      **typing x deletes the single character at cursor
-
+      dd is delete entire line. dw is delete word. x is delete character
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		      Lesson 2.2: MORE DELETION COMMANDS
 
