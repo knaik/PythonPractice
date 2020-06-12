@@ -92,7 +92,6 @@ NOTE:  :q! <ENTER>  discards any changes you made.  In a few lessons you
   1. Exit this tutor as you did in lesson 1.2:  :q!
      Or, if you have access to another terminal, do the following there.
 
-
   2. Save the file with changes and exit Vim with:  :wq  <ENTER>
 
   3. Save the file without exiting Vim with :w
@@ -164,10 +163,6 @@ NOTE: Pressing <ESC> will place you in Normal mode or will cancel
 
 
   5. Move on to Lesson 2.3 to understand what is happening.
-
-
-
-
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		     Lesson 2.3: ON OPERATORS AND MOTIONS
