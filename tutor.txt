@@ -161,9 +161,6 @@ NOTE: Pressing <ESC> will place you in Normal mode or will cancel
 
 ---> Somebody typed the end of this line twice. end of this line twice.
 
-
-  5. Move on to Lesson 2.3 to understand what is happening.
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		     Lesson 2.3: ON OPERATORS AND MOTIONS
 
@@ -177,7 +174,7 @@ NOTE: Pressing <ESC> will place you in Normal mode or will cancel
     d      - is the delete operator.
     motion - is what the operator will operate on (listed below).
 
-  A short list of motions:
+  List of motions:
     w - until the start of the next word, EXCLUDING its first character.
     e - to the end of the current word, INCLUDING the last character.
     $ - to the end of the line, INCLUDING the last character.
@@ -186,6 +183,8 @@ NOTE: Pressing <ESC> will place you in Normal mode or will cancel
 
 NOTE:  Pressing just the motion while in Normal mode without an operator will
        move the cursor as specified.
+       
+       vim is useful when using block for visual clarity instead of cursor
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		     Lesson 2.4: USING A COUNT FOR A MOTION
@@ -206,8 +205,6 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
 ---> This is just a line with words you can move around in.
 
   6. Move on to Lesson 2.5.
-
-
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
