@@ -1,0 +1,19 @@
+This is a cheatsheet for myself while learning the ls
+
+ls lists all the files in the directory
+
+ls -d only lists information about the current directory. 
+the output would be "."  ls -d ~ would give the name of that directory
+
+to filter directories the command s ls -d 
+
+ls -d * lists the same things as ls
+
+add -l like ls -l gives the output in a list form with more details. single column 
+
+ls -d $PWD/* prints the current files with full path name
+
+!!
+        ls -d */ gives a list of current directories only
+	ls -dl */ gives a list of current directories in lost form
+!!
