@@ -1,0 +1,26 @@
+ls -l shows a list
+piping with | allows a filter with certain matching
+
+ls -l | ".jpg"
+
+*.jpg wildcard doesn't work 
+
+to do logic such as or you need to use egrep
+
+ls -l | egrep ".jpg|.png"
+
+grep -E works the same 
+
+grep -v does a not operation !!!!!!!!!!
+
+grep and commands are confusing
+
+
+ls -d */ shows directories. -d just puts ls in directory mode, it does not filter itself 
+
+
+in directory containing Xodo and Xodo2 and 2Xodo
+ls -d Xodo/ would give  only Xodo
+ls -d Xodo*/ would give both Xodo and Xodo2
+ls -d *Xodo/ would give 2Xodo and Xodo only 
+ls -d *Xodo*/ would give all ---- wildcard behaves as expected in this case

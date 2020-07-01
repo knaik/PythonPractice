@@ -147,7 +147,7 @@ NOTE: Pressing <ESC> will place you in Normal mode or will cancel
       dd is delete entire line. dw is delete word. x is delete character
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		      Lesson 2.2: MORE DELETION COMMANDS
-
+!! note that the dollar sign needs the shift
 
 	   ** Type  d$	to delete to the end of the line. **
 
@@ -159,7 +159,7 @@ NOTE: Pressing <ESC> will place you in Normal mode or will cancel
 
   4. Type    d$    to delete to the end of the line.
 
----> Somebody typed the end of this line twice. end of this line twice.
+---> Somebody typed the end of this line twice. 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		     Lesson 2.3: ON OPERATORS AND MOTIONS
