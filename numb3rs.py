@@ -1,14 +1,12 @@
-#chatgpt and bing couldn't code this well
-
 import random
 
+print("hello")
 # Create an array of 10 items, 1 through 10
-array = list(range(1,41))
-print(array)
+array = list(range(1,401))
+#print(array)
 # Shuffle the array using random.shuffle
 #random.shuffle(array)
 
-# Print the shuffled array
 #print(array)
 
 # Define a function to shuffle an array using Fisher-Yates algorithm
@@ -21,41 +19,46 @@ def fisher_yates_shuffle(array):
         array[i],array[j] = array[j],array[i]
 
 # Create another array of 10 items, 1 through 10
-array2 = list(range(1,41))
+array2 = list(range(1,401))
 
 # Shuffle the array using fisher_yates_shuffle
 fisher_yates_shuffle(array2)
 
-array = [0]*40
+array = [0]*400
 ##print(array)
 # Print the shuffled array
 ##print(array2)
 
-for i in range(0,20000000):
+for i in range(0,200000):
     #print(" ")
 
     fisher_yates_shuffle(array2)
     ##print(array2)
     
-    for j in range (0,40):
+    for j in range (0,400):
         array[j] = array[j] + array2[j]
     ##print(array)
 
-print(array)
+#print(array)
 
-for k in range (0,40):
-    array[k] = array[k]/1000000
+for k in range (0,400):
+    array[k] = array[k]/10000000
+
+for k in range (0,400):
+    array[k] = array[k]-4
+    array[k] = round((array[k]+.05)*100,2)
     
-for k in range (0,40):
-    array[k] = array[k]/41
+array3 = [0]*130
 
-for k in range (0,40):
-    array[k] = round((array[k] - 10.0)/5*100,1)
+for k in range (0,400):
+    print(array[k])
+    #print(round(array[k],1))
+    num = round(array[k],1)*10
+    num = int(num)
+    array3[num] = array3[num] + 1
 
-print(array)
+#print(array)
 
 array.sort()
 
-print(array)
-
-
+print(array3)
