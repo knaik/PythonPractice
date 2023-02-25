@@ -1,0 +1,61 @@
+#chatgpt and bing couldn't code this well
+
+import random
+
+# Create an array of 10 items, 1 through 10
+array = list(range(1,41))
+print(array)
+# Shuffle the array using random.shuffle
+#random.shuffle(array)
+
+# Print the shuffled array
+#print(array)
+
+# Define a function to shuffle an array using Fisher-Yates algorithm
+def fisher_yates_shuffle(array):
+    # Loop from the last element to the second element
+    for i in range(len(array)-1,0,-1):
+        # Generate a random index from 0 to i
+        j = random.randint(0,i)
+        # Swap array[i] and array[j]
+        array[i],array[j] = array[j],array[i]
+
+# Create another array of 10 items, 1 through 10
+array2 = list(range(1,41))
+
+# Shuffle the array using fisher_yates_shuffle
+fisher_yates_shuffle(array2)
+
+array = [0]*40
+##print(array)
+# Print the shuffled array
+##print(array2)
+
+for i in range(0,200):
+    #print(" ")
+
+    fisher_yates_shuffle(array2)
+    ##print(array2)
+    
+    for j in range (0,40):
+        array[j] = array[j] + array2[j]
+    ##print(array)
+
+print(array)
+
+for k in range (0,40):
+    array[k] = array[k]/10
+    
+for k in range (0,40):
+    array[k] = array[k]/41
+
+for k in range (0,40):
+    array[k] = round((array[k] - 10.0)/5*100,1)
+
+print(array)
+
+array.sort()
+
+print(array)
+
+
