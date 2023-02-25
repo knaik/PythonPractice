@@ -31,7 +31,7 @@ array = [0]*40
 # Print the shuffled array
 ##print(array2)
 
-for i in range(0,200):
+for i in range(0,20000000):
     #print(" ")
 
     fisher_yates_shuffle(array2)
@@ -44,7 +44,7 @@ for i in range(0,200):
 print(array)
 
 for k in range (0,40):
-    array[k] = array[k]/10
+    array[k] = array[k]/1000000
     
 for k in range (0,40):
     array[k] = array[k]/41
